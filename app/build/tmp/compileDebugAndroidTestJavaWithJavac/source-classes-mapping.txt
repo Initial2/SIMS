@@ -1,0 +1,2 @@
+com/example/sims/test/BuildConfig.java
+ com.example.sims.test.BuildConfig
