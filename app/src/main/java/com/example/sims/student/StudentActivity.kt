@@ -7,14 +7,18 @@ import android.view.View
 import android.widget.Button
 import com.example.sims.R
 
+
+/**
+ * 学生登录界面
+ */
 class StudentActivity : AppCompatActivity() , View.OnClickListener {
 
 
-    var personal : Button? = null
-    var scoreButton : Button? = null
-    var modifyButton : Button? = null
-    var classmatesButton : Button? = null
-    var exitButton : Button? = null
+    private var personal : Button? = null
+    private var scoreButton : Button? = null
+    private var modifyButton : Button? = null
+    private var classmatesButton : Button? = null
+    private var exitButton : Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

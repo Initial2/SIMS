@@ -18,9 +18,9 @@ import com.example.sims.teacher.TeacherActivity
  */
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
-    var button: Button? = null
-    var username: EditText? = null
-    var password: EditText? = null
+    private var button: Button? = null
+    private var username: EditText? = null
+    private var password: EditText? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,11 +41,9 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         val username = username!!.text.toString()
         val password = password!!.text.toString()
 
-        //获取到权限等级
-        val verify = VerifyLogin.verify(username, password);
 
         //进行权限判断
-        when (1) {
+        when (VerifyLogin.verify(username, password)) {
             0 -> {
                 // 0就提示登陆失败
                 val fail = "登录失败"
