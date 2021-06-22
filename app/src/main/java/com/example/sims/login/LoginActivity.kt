@@ -18,9 +18,14 @@ import com.example.sims.teacher.TeacherActivity
  */
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
+
     private var button: Button? = null
-    private var username: EditText? = null
-    private var password: EditText? = null
+    private var usernameEditText : EditText? = null
+    private var passwordEditText : EditText? = null
+    var username: String? = null;
+    var password: String? = null;
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,8 +33,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
         //获取XML文件对应的标签信息
         button = findViewById<View>(R.id.login) as Button
-        username = findViewById<View>(R.id.username) as EditText
-        password = findViewById<View>(R.id.password) as EditText
+        usernameEditText = findViewById<View>(R.id.username) as EditText
+        passwordEditText = findViewById<View>(R.id.password) as EditText
 
         //设置按钮监听事件
         button!!.setOnClickListener(this)
@@ -38,12 +43,12 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     //按钮监听事件
     override fun onClick(v: View?) {
         //获取用户输入的账号密码
-        val username = username!!.text.toString()
-        val password = password!!.text.toString()
+       username = usernameEditText!!.text.toString()
+       password = passwordEditText!!.text.toString()
 
 
         //进行权限判断
-        when (VerifyLogin.verify(username, password)) {
+        when (VerifyLogin.verify(username!!, password!!)) {
             0 -> {
                 // 0就提示登陆失败
                 val fail = "登录失败"

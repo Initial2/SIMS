@@ -48,6 +48,7 @@ class StudentActivity : AppCompatActivity() , View.OnClickListener {
         when (v?.id) {
             R.id.personal_file_button ->{
                 //点击查看个人档案按钮，就打开PersonalFileActivity
+
                 val intent = Intent(this@StudentActivity, PersonalFileActivity::class.java)
                 startActivity(intent)}
             R.id.score_button ->{}

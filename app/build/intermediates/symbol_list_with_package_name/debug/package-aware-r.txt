@@ -1861,6 +1861,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id gender
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2051,6 +2052,8 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
+id stuAge
+id stuName
 id submenuarrow
 id submit_area
 id tabMode
@@ -2080,6 +2083,7 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView6
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
