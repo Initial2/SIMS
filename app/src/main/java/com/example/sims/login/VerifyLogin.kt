@@ -1,5 +1,6 @@
 package com.example.sims.login
 
+import android.content.Context
 import androidx.room.Room
 import com.example.sims.dao.UserDao
 import com.example.sims.database.UserDatabase
@@ -20,22 +21,22 @@ class VerifyLogin  {
      companion object {
         var userDao: UserDao? =null
         var userDatabase: UserDatabase? = null
-        fun verify(username: String, password: String):Int {
+        fun verify(username: String, password: String,t:Context):Int {
             val student = User(1,"111","111",1)
             val teacher = User(2,"222","222",2)
             val admin = User(3,"333","333",3)
-//            userDatabase = Room.databaseBuilder(this,UserDatabase::class.java,"User.db")
-//                .allowMainThreadQueries()
-//                .build()
+            userDatabase = Room.databaseBuilder(t,UserDatabase::class.java,"User.db")
+                .allowMainThreadQueries()
+                .build()
             userDao = userDatabase!!.getUserDao()
             userDao!!.insert(student)
             userDao!!.insert(teacher)
             userDao!!.insert(admin)
 
-            var re = userDao!!.login(username,password)
+            val re = userDao!!.login(username,password)
 
             //连接到数据库进行验 证...
-            return re;
+            return re
         }
 
     }

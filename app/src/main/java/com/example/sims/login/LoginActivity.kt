@@ -11,7 +11,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.room.Room
 import com.example.sims.*
 import com.example.sims.admin.AdminActivity
+import com.example.sims.dao.UserDao
 import com.example.sims.database.UserDatabase
+import com.example.sims.entity.User
 import com.example.sims.student.StudentActivity
 import com.example.sims.teacher.TeacherActivity
 
@@ -24,8 +26,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     private var button: Button? = null
     private var usernameEditText : EditText? = null
     private var passwordEditText : EditText? = null
-    var username: String? = null;
-    var password: String? = null;
+    var username: String? = null
+    var password: String? = null
 
 
 
@@ -37,10 +39,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         button = findViewById<View>(R.id.login) as Button
         usernameEditText = findViewById<View>(R.id.username) as EditText
         passwordEditText = findViewById<View>(R.id.password) as EditText
-
-        VerifyLogin.userDatabase = Room.databaseBuilder(this, UserDatabase::class.java,"User.db")
-            .allowMainThreadQueries()
-            .build()
 
         //设置按钮监听事件
         button!!.setOnClickListener(this)
@@ -54,7 +52,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
 
         //进行权限判断
-        when (VerifyLogin.verify(username!!, password!!)) {
+        when (VerifyLogin.verify(username!!, password!!,this)) {
             0 -> {
                 // 0就提示登陆失败
                 val fail = "登录失败"
