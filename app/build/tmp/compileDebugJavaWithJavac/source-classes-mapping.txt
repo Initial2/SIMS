@@ -1,2 +1,9 @@
+com/example/sims/dao/UserDao_Impl.java
+ com.example.sims.dao.UserDao_Impl
+ com.example.sims.dao.UserDao_Impl$1
+ com.example.sims.dao.UserDao_Impl$2
 com/example/sims/BuildConfig.java
  com.example.sims.BuildConfig
+com/example/sims/database/UserDatabase_Impl.java
+ com.example.sims.database.UserDatabase_Impl
+ com.example.sims.database.UserDatabase_Impl$1

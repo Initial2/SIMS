@@ -8,8 +8,10 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.room.Room
 import com.example.sims.*
 import com.example.sims.admin.AdminActivity
+import com.example.sims.database.UserDatabase
 import com.example.sims.student.StudentActivity
 import com.example.sims.teacher.TeacherActivity
 
@@ -35,6 +37,10 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         button = findViewById<View>(R.id.login) as Button
         usernameEditText = findViewById<View>(R.id.username) as EditText
         passwordEditText = findViewById<View>(R.id.password) as EditText
+
+        VerifyLogin.userDatabase = Room.databaseBuilder(this, UserDatabase::class.java,"User.db")
+            .allowMainThreadQueries()
+            .build()
 
         //设置按钮监听事件
         button!!.setOnClickListener(this)
