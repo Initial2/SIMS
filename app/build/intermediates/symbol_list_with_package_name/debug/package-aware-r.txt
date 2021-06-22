@@ -2055,6 +2055,7 @@ id stop
 id stretch
 id stuAge
 id stuName
+id student_id
 id submenuarrow
 id submit_area
 id tabMode
@@ -2071,6 +2072,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id tel
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2083,10 +2085,14 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
+id textView11
 id textView2
 id textView3
 id textView4
+id textView5
 id textView6
+id textView8
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

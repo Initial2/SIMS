@@ -8,12 +8,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.room.Room
 import com.example.sims.*
 import com.example.sims.admin.AdminActivity
-import com.example.sims.dao.UserDao
-import com.example.sims.database.UserDatabase
-import com.example.sims.entity.User
 import com.example.sims.student.StudentActivity
 import com.example.sims.teacher.TeacherActivity
 

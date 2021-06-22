@@ -32,10 +32,17 @@ class PersonalFileActivity : AppCompatActivity() {
         var name = findViewById<View>(R.id.stuName) as TextView
         var age = findViewById<View>(R.id.stuAge) as TextView
         var gender = findViewById<View>(R.id.gender) as TextView
+        var studentID = findViewById<View>(R.id.student_id) as TextView
+        var tel = findViewById<View>(R.id.tel) as TextView
+        var address = findViewById<View>(R.id.textView11) as TextView
+
+        //从数据库查询出来的值，然后赋值给下列属性即可
         name.text = "这里是从数据库获取到的它的姓名"
-
-
-
+        age.text = "";
+        gender.text = "";
+        studentID.text = "";
+        tel.text = "";
+        address.text = "";
     }
 
 
