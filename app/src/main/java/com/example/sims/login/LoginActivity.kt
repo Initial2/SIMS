@@ -10,6 +10,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.sims.*
 import com.example.sims.admin.AdminActivity
+import com.example.sims.databinding.ActivityLoginBinding
 import com.example.sims.student.StudentActivity
 import com.example.sims.teacher.TeacherActivity
 
@@ -19,7 +20,6 @@ import com.example.sims.teacher.TeacherActivity
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
 
-    private var button: Button? = null
     private var usernameEditText : EditText? = null
     private var passwordEditText : EditText? = null
     var username: String? = null
@@ -29,23 +29,36 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+
+        //不知道干啥用的，注释掉也没事。
+        //setContentView(R.layout.activity_login)
+
+        //使用ViewBiding
+        val biding = ActivityLoginBinding.inflate(layoutInflater)
+        val root = biding.root
+        setContentView(root)
 
 
         //获取XML文件对应的标签信息
-        button = findViewById<View>(R.id.login) as Button
-        usernameEditText = findViewById<View>(R.id.username) as EditText
-        passwordEditText = findViewById<View>(R.id.password) as EditText
+        biding.login.setOnClickListener(this)
+        usernameEditText = biding.username
+        passwordEditText = biding.password
 
-        //设置按钮监听事件
-        button!!.setOnClickListener(this)
+
+
+        //设置按钮监听事件 使用ViewBiding 替换
+       // button = findViewById<View>(R.id.login) as Button
+        //usernameEditText = findViewById<View>(R.id.username) as EditText
+        //passwordEditText = findViewById<View>(R.id.password) as EditText
+       // button!!.setOnClickListener(this)
+
     }
 
     //按钮监听事件
     override fun onClick(v: View?) {
         //获取用户输入的账号密码
-       username = usernameEditText!!.text.toString()
-       password = passwordEditText!!.text.toString()
+        username = usernameEditText!!.text.toString()
+        password = passwordEditText!!.text.toString()
 
 
         //进行权限判断

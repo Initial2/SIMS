@@ -18,6 +18,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SIMS" >
+        <activity android:name="com.example.sims.student.ModifyActivity" />
         <activity android:name="com.example.sims.student.ScoreActivity" />
         <activity android:name="com.example.sims.student.PersonalFileActivity" />
         <activity android:name="com.example.sims.admin.AdminActivity" />

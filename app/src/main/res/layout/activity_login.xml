@@ -41,6 +41,7 @@
             android:layout_marginStart="100dp"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="-40dp"
+            android:singleLine="true"
             android:hint="请输入您的用户名" />
 
         <TextView
@@ -61,6 +62,7 @@
             android:layout_marginLeft="100dp"
             android:layout_marginTop="-40dp"
             android:hint="请输入您的密码"
+            android:singleLine="true"
             android:inputType="textPassword" />
 
         <LinearLayout

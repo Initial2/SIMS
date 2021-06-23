@@ -8,6 +8,7 @@ import androidx.room.Room
 import com.example.sims.R
 import com.example.sims.dao.StudentDao
 import com.example.sims.database.StudentDatabase
+import com.example.sims.databinding.ActivityPersonalFileBinding
 import com.example.sims.entity.Student
 import com.example.sims.login.LoginActivity
 import com.example.sims.login.VerifyLogin
@@ -17,13 +18,19 @@ import com.example.sims.login.VerifyLogin
  * 学生档案查看页面
  */
 class PersonalFileActivity : AppCompatActivity() {
+    private var inflate : ActivityPersonalFileBinding? = null
 
-    //拿到该学生的学号。
-    val studentIDShow = LoginActivity().username
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_personal_file)
+
+        //setContentView(R.layout.activity_personal_file)
+
+
+        //使用ViewBiding
+        inflate = ActivityPersonalFileBinding.inflate(layoutInflater)
+        val root = inflate!!.root
+        setContentView(root)
         showInfo()
     }
 
@@ -34,16 +41,27 @@ class PersonalFileActivity : AppCompatActivity() {
      */
     private fun showInfo() {
         var studentDao:StudentDao
-        var studentDatabase:StudentDatabase
+
+        var  name = inflate?.stuName
+        var age = inflate?.stuAge
+        var gender = inflate?.gender
+        var studentID = inflate?.studentId
+        var tel = inflate?.tel
+        var address = inflate?.textView11
+
+        /*
         var name = findViewById<View>(R.id.stuName) as TextView
         var age = findViewById<View>(R.id.stuAge) as TextView
         var gender = findViewById<View>(R.id.gender) as TextView
         var studentID = findViewById<View>(R.id.student_id) as TextView
         var tel = findViewById<View>(R.id.tel) as TextView
         var address = findViewById<View>(R.id.textView11) as TextView
+        */
+
 
         val student1 = Student(111,"张三","15","男","13539465745","郑州市")
-        studentDatabase = Room.databaseBuilder(this,StudentDatabase::class.java,"Student.db")
+        var studentDatabase:StudentDatabase =
+            Room.databaseBuilder(this,StudentDatabase::class.java,"Student.db")
             .allowMainThreadQueries()
             .build()
         studentDao = studentDatabase.getStudentDao()
@@ -53,12 +71,24 @@ class PersonalFileActivity : AppCompatActivity() {
 
         var studentShow = studentDao.show(VerifyLogin.username!!.toInt())
         //从数据库查询出来的值，然后赋值给下列属性即可
-        name.text = studentShow.name
-        age.text = studentShow.age
-        gender.text = studentShow.sex
-        studentID.text = studentShow.student_id.toString()
-        tel.text = studentShow.tel
-        address.text = studentShow.address
+        if (name != null) {
+            name.text = studentShow.name
+        }
+        if (age != null) {
+            age.text = studentShow.age
+        }
+        if (gender != null) {
+            gender.text = studentShow.sex
+        }
+        if (studentID != null) {
+            studentID.text = studentShow.student_id.toString()
+        }
+        if (tel != null) {
+            tel.text = studentShow.tel
+        }
+        if (address != null) {
+            address.text = studentShow.address
+        }
     }
 
 

@@ -1758,6 +1758,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id address2
 id alertTitle
 id aligned
 id all
@@ -1863,6 +1864,7 @@ id floating
 id forever
 id fragment_container_view_tag
 id gender
+id gender2
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1884,6 +1886,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id info
 id invisible
 id inward
@@ -2078,10 +2081,14 @@ id staticPostLayout
 id stop
 id stretch
 id stuAge
+id stuAge2
 id stuName
+id stuName2
 id student_id
+id student_id2
 id submenuarrow
 id submit_area
+id submit_button
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2097,6 +2104,7 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id tel
+id tel2
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2113,7 +2121,14 @@ id textView10
 id textView11
 id textView12
 id textView13
+id textView14
+id textView15
+id textView16
+id textView17
+id textView18
+id textView19
 id textView2
+id textView20
 id textView3
 id textView4
 id textView5
@@ -2225,6 +2240,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_admin
 layout activity_login
+layout activity_modify
 layout activity_personal_file
 layout activity_score
 layout activity_student
