@@ -72,9 +72,12 @@
         android:id="@+id/gender"
         android:layout_width="50dp"
         android:layout_height="25dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="223dp" />
+        android:layout_marginTop="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"

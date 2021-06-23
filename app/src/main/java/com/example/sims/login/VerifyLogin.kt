@@ -21,7 +21,9 @@ class VerifyLogin  {
      companion object {
         var userDao: UserDao? =null
         var userDatabase: UserDatabase? = null
+        var username: String? = null
         fun verify(username: String, password: String,t:Context):Int {
+            this.username = username
             val student = User(1,"111","111",1)
             val teacher = User(2,"222","222",2)
             val admin = User(3,"333","333",3)
