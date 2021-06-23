@@ -4,6 +4,10 @@
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_teacher.xml"
     },
     {
+        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_score.xml.flat",
+        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_score.xml"
+    },
+    {
         "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_login.xml"
     },

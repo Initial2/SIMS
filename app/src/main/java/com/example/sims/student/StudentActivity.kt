@@ -11,14 +11,14 @@ import com.example.sims.R
 /**
  * 学生登录界面
  */
-class StudentActivity : AppCompatActivity() , View.OnClickListener {
+class StudentActivity : AppCompatActivity(), View.OnClickListener {
 
 
-    private var personal : Button? = null
-    private var scoreButton : Button? = null
-    private var modifyButton : Button? = null
-    private var classmatesButton : Button? = null
-    private var exitButton : Button? = null
+    private var personal: Button? = null
+    private var scoreButton: Button? = null
+    private var modifyButton: Button? = null
+    private var classmatesButton: Button? = null
+    private var exitButton: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,20 +44,27 @@ class StudentActivity : AppCompatActivity() , View.OnClickListener {
      * 别处理每个按钮的监听事件
      */
     override fun onClick(v: View?) {
-
         when (v?.id) {
-            R.id.personal_file_button ->{
+            R.id.personal_file_button -> {
                 //点击查看个人档案按钮，就打开PersonalFileActivity
 
                 val intent = Intent(this@StudentActivity, PersonalFileActivity::class.java)
-                startActivity(intent)}
-            R.id.score_button ->{}
+                startActivity(intent)
+            }
+            R.id.score_button -> {
+                val intent = Intent(this@StudentActivity, ScoreActivity::class.java)
+                startActivity(intent)
+            }
 
-            R.id.modify_button ->{}
 
-            R.id.classmates_button ->{}
+            R.id.modify_button -> {
+            }
 
-            R.id.exit_button ->{}
+            R.id.classmates_button -> {
+            }
+
+            R.id.exit_button -> {
+            }
 
         }
 

@@ -37,7 +37,7 @@ class PersonalFileActivity : AppCompatActivity() {
         var address = findViewById<View>(R.id.textView11) as TextView
 
         //从数据库查询出来的值，然后赋值给下列属性即可
-        name.text = "这里是从数据库获取到的它的姓名"
+        name.text = "12345251"
         age.text = "";
         gender.text = "";
         studentID.text = "";

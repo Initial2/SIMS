@@ -4,6 +4,18 @@ com/example/sims/dao/UserDao_Impl.java
  com.example.sims.dao.UserDao_Impl$2
 com/example/sims/BuildConfig.java
  com.example.sims.BuildConfig
+com/example/sims/databinding/ActivityLoginBinding.java
+ com.example.sims.databinding.ActivityLoginBinding
+com/example/sims/databinding/ActivityScoreBinding.java
+ com.example.sims.databinding.ActivityScoreBinding
+com/example/sims/databinding/ActivityAdminBinding.java
+ com.example.sims.databinding.ActivityAdminBinding
+com/example/sims/databinding/ActivityStudentBinding.java
+ com.example.sims.databinding.ActivityStudentBinding
+com/example/sims/databinding/ActivityTeacherBinding.java
+ com.example.sims.databinding.ActivityTeacherBinding
 com/example/sims/database/UserDatabase_Impl.java
  com.example.sims.database.UserDatabase_Impl
  com.example.sims.database.UserDatabase_Impl$1
+com/example/sims/databinding/ActivityPersonalFileBinding.java
+ com.example.sims.databinding.ActivityPersonalFileBinding

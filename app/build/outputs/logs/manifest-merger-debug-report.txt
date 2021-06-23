@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\736f286ff527b9f2782a150706857731\viewbinding-4.1.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\dce38c647791623f932295e3f148ca7a\core-ktx-1.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\a1bee603c8c665d790f61db888564b64\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\d430699f4ad16e2ce8d7e74149421921\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -43,25 +44,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\initial\.gradle\
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\f450baa294fab1a7438299c49f61732f\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\c925c10117c18797c9dfea352c5b8001\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\73ec3995257c2fdacbf542aa4c31acd2\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\a1bee603c8c665d790f61db888564b64\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\a1bee603c8c665d790f61db888564b64\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\d430699f4ad16e2ce8d7e74149421921\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -86,40 +87,46 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\in
 		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:11:9-42
+activity#com.example.sims.student.ScoreActivity
+ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:12:9-68
+	android:name
+		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:12:19-56
 activity#com.example.sims.student.PersonalFileActivity
-ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:12:9-75
+ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:13:9-66
 	android:name
-		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:12:19-63
+		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:13:19-63
 activity#com.example.sims.admin.AdminActivity
-ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:13:9-57
+ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:14:9-57
 	android:name
-		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:13:19-54
+		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:14:19-54
 activity#com.example.sims.teacher.TeacherActivity
-ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:14:9-61
-	android:name
-		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:14:19-58
-activity#com.example.sims.student.StudentActivity
 ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:15:9-61
 	android:name
 		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:15:19-58
+activity#com.example.sims.student.StudentActivity
+ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:16:9-61
+	android:name
+		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:16:19-58
 activity#com.example.sims.login.LoginActivity
-ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:16:19-54
+		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:17:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\initial\AndroidStudioProjects\SIMS\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\736f286ff527b9f2782a150706857731\viewbinding-4.1.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\736f286ff527b9f2782a150706857731\viewbinding-4.1.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\dce38c647791623f932295e3f148ca7a\core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\dce38c647791623f932295e3f148ca7a\core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\initial\.gradle\caches\transforms-2\files-2.1\a1bee603c8c665d790f61db888564b64\material-1.3.0\AndroidManifest.xml:20:5-44

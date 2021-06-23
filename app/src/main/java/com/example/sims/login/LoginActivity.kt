@@ -31,6 +31,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+
         //获取XML文件对应的标签信息
         button = findViewById<View>(R.id.login) as Button
         usernameEditText = findViewById<View>(R.id.username) as EditText
