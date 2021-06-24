@@ -59,13 +59,18 @@ class PersonalFileActivity : AppCompatActivity() {
         */
 
 
-        val student1 = Student(111,"张三","15","男","13539465745","郑州市")
+        val student1 = Student(111,"张三","15","男","13539465745","郑州市新郑")
         var studentDatabase:StudentDatabase =
             Room.databaseBuilder(this,StudentDatabase::class.java,"Student.db")
             .allowMainThreadQueries()
             .build()
         studentDao = studentDatabase.getStudentDao()
-        studentDao.insert(student1)
+
+        //判断数据库中是否存在初值
+        val test = studentDao.show(111)
+        if(test == null){
+            studentDao.insert(student1)
+        }
 
 //        var studentShow = Student(122,"11","15","1","13539465745","郑州市")
 
