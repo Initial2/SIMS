@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SIMS">
+        <activity android:name=".teacher.ModfyScoreMainActivity"></activity>
+        <activity android:name=".teacher.ModifyScoreActivity" />
         <activity android:name=".student.ModifyActivity" />
         <activity android:name=".student.ScoreActivity" />
         <activity android:name=".student.PersonalFileActivity" />

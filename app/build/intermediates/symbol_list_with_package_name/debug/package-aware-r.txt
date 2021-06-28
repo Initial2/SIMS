@@ -1778,6 +1778,8 @@ id beginning
 id blocking
 id bottom
 id bounce
+id button
+id button2
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1888,6 +1890,9 @@ id image
 id imageView
 id imageView2
 id info
+id input_course
+id input_name
+id input_stuid
 id invisible
 id inward
 id italic
@@ -2084,6 +2089,7 @@ id stuAge
 id stuAge2
 id stuName
 id stuName2
+id stu_score
 id student_id
 id student_id2
 id submenuarrow
@@ -2129,6 +2135,11 @@ id textView18
 id textView19
 id textView2
 id textView20
+id textView21
+id textView22
+id textView23
+id textView24
+id textView25
 id textView3
 id textView4
 id textView5
@@ -2241,6 +2252,7 @@ layout abc_tooltip
 layout activity_admin
 layout activity_login
 layout activity_modify
+layout activity_modify_score
 layout activity_personal_file
 layout activity_score
 layout activity_student

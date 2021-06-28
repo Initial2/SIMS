@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
+
 import com.example.sims.R
 import com.example.sims.databinding.ActivityStudentBinding
 import kotlin.system.exitProcess

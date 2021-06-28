@@ -22,7 +22,8 @@
             android:text="欢迎来到学生信息管理系统"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textSize="34sp" />
+            android:textSize="34sp"
+            android:gravity="center_horizontal" />
 
         <TextView
             android:layout_width="wrap_content"

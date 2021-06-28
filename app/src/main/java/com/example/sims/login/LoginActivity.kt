@@ -35,8 +35,9 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
         //使用ViewBiding
         val biding = ActivityLoginBinding.inflate(layoutInflater)
+        setContentView(biding.root)
         val root = biding.root
-        setContentView(root)
+
 
 
         //获取XML文件对应的标签信息
