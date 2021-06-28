@@ -3,8 +3,12 @@ package com.example.sims.student
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.room.Room
 import com.example.sims.R
+import com.example.sims.database.ScoreDatabase
+import com.example.sims.database.StudentDatabase
 import com.example.sims.databinding.ActivityScoreBinding
+import com.example.sims.login.VerifyLogin
 
 class ScoreActivity : AppCompatActivity() {
 
@@ -49,11 +53,23 @@ class ScoreActivity : AppCompatActivity() {
         list.add(binding.score23);
         list.add(binding.score24);
 
+        var scoreDatabase = Room.databaseBuilder(this, ScoreDatabase::class.java,"Score.db")
+                .allowMainThreadQueries()
+                .build()
+        var scoreDao = scoreDatabase.getScoreDao()
+        var score1 = scoreDao.select(VerifyLogin.username!!.toInt(),"语文")
+        var score2 = scoreDao.select(VerifyLogin.username!!.toInt(),"数学")
+        var score3 = scoreDao.select(VerifyLogin.username!!.toInt(),"英语")
 
-        binding.score1.text = "2131";
-        binding.score2.text = "1231";
-        binding.score3.text = "1231";
-        binding.score4.text = "1231";
+        binding.score1.text = "1";
+        binding.score2.text = "语文";
+        binding.score3.text = score1.toString();
+        binding.score4.text = "2";
+        binding.score5.text = "数学";
+        binding.score6.text = score2.toString();
+        binding.score7.text = "3";
+        binding.score8.text = "英语";
+        binding.score9.text = score3.toString();
 
 
 

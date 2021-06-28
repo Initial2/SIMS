@@ -1892,6 +1892,7 @@ id imageView2
 id info
 id input_course
 id input_name
+id input_stuInfo
 id input_stuid
 id invisible
 id inward
@@ -1935,6 +1936,8 @@ id message
 id middle
 id mini
 id modify_button
+id modify_score
+id modify_stuInfo
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -2089,6 +2092,7 @@ id stuAge
 id stuAge2
 id stuName
 id stuName2
+id stu_course
 id stu_score
 id student_id
 id student_id2
@@ -2109,6 +2113,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id teach_task
 id tel
 id tel2
 id test_checkbox_android_button_tint
@@ -2250,11 +2255,15 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_admin
+layout activity_distribute_course
 layout activity_login
 layout activity_modify
 layout activity_modify_score
+layout activity_modify_stu_info
+layout activity_modify_stu_score
 layout activity_personal_file
 layout activity_score
+layout activity_search_stu_info
 layout activity_student
 layout activity_teacher
 layout custom_dialog
