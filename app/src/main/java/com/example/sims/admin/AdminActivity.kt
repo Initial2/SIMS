@@ -33,29 +33,32 @@ class AdminActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
         when (v?.id) {
            R.id.input_stuInfo -> {
-                //点击查看个人档案按钮，就打开PersonalFileActivity
-                val intent = Intent(this@AdminActivity, SearchStuInfoActivity::class.java)
+                //录入学生信息
+                val intent = Intent(this@AdminActivity, AddStuActivity::class.java)
                 startActivity(intent)
             }
             R.id.stu_course -> {
-                //查看学生成绩
+                //分配学生课程
                 val intent = Intent(this@AdminActivity, DistributeCourseActivity::class.java)
                 startActivity(intent)
             }
 
             R.id.modify_score -> {
-                //修改个人信息
+                //修改学生成绩
                 val intent = Intent(this@AdminActivity, ModifyStuScoreActivity::class.java)
                 startActivity(intent)
             }
 
             R.id.modify_stuInfo -> {
+                    //查询/修改学生信息
                   val intent = Intent(this@AdminActivity, ModifyStuInfoActivity::class.java)
                   startActivity(intent)
             }
 
             R.id.teach_task -> {
-
+                //分配教学任务
+                val intent = Intent(this@AdminActivity, TeachTaskActivity::class.java)
+                startActivity(intent)
             }
 
         }

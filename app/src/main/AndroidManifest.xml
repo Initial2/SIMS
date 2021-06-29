@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SIMS">
-        <activity android:name=".admin.ModifyStuInfoActivity"></activity>
+        <activity android:name=".admin.TeachTaskActivity"></activity>
+        <activity android:name=".admin.AddStuActivity" />
+        <activity android:name=".admin.ModifyStuInfoActivity" />
         <activity android:name=".admin.ModifyStuScoreActivity" />
         <activity android:name=".admin.DistributeCourseActivity" />
         <activity android:name=".admin.SearchStuInfoActivity" />

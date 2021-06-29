@@ -1,4 +1,7 @@
-#Mon Jun 28 17:21:59 CST 2021
+#Tue Jun 29 11:52:21 CST 2021
+base.1=C\:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.1=classes.dex
 base.0=F\:\\Study\\Android\\SIMS\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+path.0=classes.dex

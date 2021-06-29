@@ -8,10 +8,16 @@ com/example/sims/databinding/ActivityTeacherBinding.java
  com.example.sims.databinding.ActivityTeacherBinding
 com/example/sims/databinding/ActivityModifyStuInfoBinding.java
  com.example.sims.databinding.ActivityModifyStuInfoBinding
+com/example/sims/database/ScoreDatabase_Impl.java
+ com.example.sims.database.ScoreDatabase_Impl
+ com.example.sims.database.ScoreDatabase_Impl$1
 com/example/sims/databinding/ActivityPersonalFileBinding.java
  com.example.sims.databinding.ActivityPersonalFileBinding
-com/example/sims/databinding/ActivityModifyScoreBinding.java
- com.example.sims.databinding.ActivityModifyScoreBinding
+com/example/sims/databinding/ActivityTeachTaskBinding.java
+ com.example.sims.databinding.ActivityTeachTaskBinding
+com/example/sims/database/StudentDatabase_Impl.java
+ com.example.sims.database.StudentDatabase_Impl
+ com.example.sims.database.StudentDatabase_Impl$1
 com/example/sims/dao/UserDao_Impl.java
  com.example.sims.dao.UserDao_Impl
  com.example.sims.dao.UserDao_Impl$1
@@ -25,21 +31,19 @@ com/example/sims/dao/StudentDao_Impl.java
  com.example.sims.dao.StudentDao_Impl$1
 com/example/sims/databinding/ActivityAdminBinding.java
  com.example.sims.databinding.ActivityAdminBinding
+com/example/sims/databinding/ActivityAddStuBinding.java
+ com.example.sims.databinding.ActivityAddStuBinding
 com/example/sims/databinding/ActivityModifyBinding.java
  com.example.sims.databinding.ActivityModifyBinding
 com/example/sims/databinding/ActivityModifyStuScoreBinding.java
  com.example.sims.databinding.ActivityModifyStuScoreBinding
+com/example/sims/dao/ScoreDao_Impl.java
+ com.example.sims.dao.ScoreDao_Impl
+ com.example.sims.dao.ScoreDao_Impl$1
 com/example/sims/databinding/ActivityStudentBinding.java
  com.example.sims.databinding.ActivityStudentBinding
 com/example/sims/database/UserDatabase_Impl.java
  com.example.sims.database.UserDatabase_Impl
  com.example.sims.database.UserDatabase_Impl$1
-com/example/sims/database/StudentDatabase_Impl.java
- com.example.sims.database.StudentDatabase_Impl
- com.example.sims.database.StudentDatabase_Impl$1
-com/example/sims/dao/ScoreDao_Impl.java
- com.example.sims.dao.ScoreDao_Impl
- com.example.sims.dao.ScoreDao_Impl$1
-com/example/sims/database/ScoreDatabase_Impl.java
- com.example.sims.database.ScoreDatabase_Impl
- com.example.sims.database.ScoreDatabase_Impl$1
+com/example/sims/databinding/ActivityModifyScoreBinding.java
+ com.example.sims.databinding.ActivityModifyScoreBinding

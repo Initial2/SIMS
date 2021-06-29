@@ -4,6 +4,9 @@ package com.example.sims.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -11,13 +14,40 @@ import androidx.viewbinding.ViewBinding;
 import com.example.sims.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityDistributeCourseBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityDistributeCourseBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final Button button3;
+
+  @NonNull
+  public final EditText courseID;
+
+  @NonNull
+  public final EditText studentID;
+
+  @NonNull
+  public final TextView textView41;
+
+  @NonNull
+  public final TextView textView42;
+
+  @NonNull
+  public final TextView textView43;
+
+  private ActivityDistributeCourseBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button button3, @NonNull EditText courseID, @NonNull EditText studentID,
+      @NonNull TextView textView41, @NonNull TextView textView42, @NonNull TextView textView43) {
     this.rootView = rootView;
+    this.button3 = button3;
+    this.courseID = courseID;
+    this.studentID = studentID;
+    this.textView41 = textView41;
+    this.textView42 = textView42;
+    this.textView43 = textView43;
   }
 
   @Override
@@ -43,10 +73,50 @@ public final class ActivityDistributeCourseBinding implements ViewBinding {
 
   @NonNull
   public static ActivityDistributeCourseBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.button3;
+      Button button3 = rootView.findViewById(id);
+      if (button3 == null) {
+        break missingId;
+      }
 
-    return new ActivityDistributeCourseBinding((ConstraintLayout) rootView);
+      id = R.id.courseID;
+      EditText courseID = rootView.findViewById(id);
+      if (courseID == null) {
+        break missingId;
+      }
+
+      id = R.id.studentID;
+      EditText studentID = rootView.findViewById(id);
+      if (studentID == null) {
+        break missingId;
+      }
+
+      id = R.id.textView41;
+      TextView textView41 = rootView.findViewById(id);
+      if (textView41 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView42;
+      TextView textView42 = rootView.findViewById(id);
+      if (textView42 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView43;
+      TextView textView43 = rootView.findViewById(id);
+      if (textView43 == null) {
+        break missingId;
+      }
+
+      return new ActivityDistributeCourseBinding((ConstraintLayout) rootView, button3, courseID,
+          studentID, textView41, textView42, textView43);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

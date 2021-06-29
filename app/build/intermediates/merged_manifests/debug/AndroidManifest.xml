@@ -18,6 +18,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SIMS" >
+        <activity android:name="com.example.sims.admin.TeachTaskActivity" />
+        <activity android:name="com.example.sims.admin.AddStuActivity" />
         <activity android:name="com.example.sims.admin.ModifyStuInfoActivity" />
         <activity android:name="com.example.sims.admin.ModifyStuScoreActivity" />
         <activity android:name="com.example.sims.admin.DistributeCourseActivity" />

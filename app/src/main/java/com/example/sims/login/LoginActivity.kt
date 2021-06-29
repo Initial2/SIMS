@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.annotation.Nullable
 import androidx.appcompat.app.AppCompatActivity
 import com.example.sims.*
 import com.example.sims.admin.AdminActivity
@@ -20,23 +21,29 @@ import com.example.sims.teacher.TeacherActivity
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
 
+    @Nullable
     private var usernameEditText : EditText? = null
+
+    @Nullable
     private var passwordEditText : EditText? = null
+
+    @Nullable
     var username: String? = null
+
+    @Nullable
     var password: String? = null
 
 
-
+    @Nullable
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         //不知道干啥用的，注释掉也没事。
-        //setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_login)
 
         //使用ViewBiding
         val biding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(biding.root)
-        val root = biding.root
 
 
 
@@ -56,6 +63,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     //按钮监听事件
+
     override fun onClick(v: View?) {
         //获取用户输入的账号密码
         username = usernameEditText!!.text.toString()

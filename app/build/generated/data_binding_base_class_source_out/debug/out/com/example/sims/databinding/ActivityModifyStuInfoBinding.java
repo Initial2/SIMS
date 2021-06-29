@@ -4,6 +4,10 @@ package com.example.sims.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -11,13 +15,92 @@ import androidx.viewbinding.ViewBinding;
 import com.example.sims.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityModifyStuInfoBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityModifyStuInfoBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final EditText address3;
+
+  @NonNull
+  public final EditText gender4;
+
+  @NonNull
+  public final ImageView imageView4;
+
+  @NonNull
+  public final EditText inputStuID;
+
+  @NonNull
+  public final Button searchButton;
+
+  @NonNull
+  public final EditText stuAge4;
+
+  @NonNull
+  public final EditText stuName4;
+
+  @NonNull
+  public final EditText studentId4;
+
+  @NonNull
+  public final Button submitButton3;
+
+  @NonNull
+  public final EditText tel4;
+
+  @NonNull
+  public final TextView textView33;
+
+  @NonNull
+  public final TextView textView34;
+
+  @NonNull
+  public final TextView textView35;
+
+  @NonNull
+  public final TextView textView36;
+
+  @NonNull
+  public final TextView textView37;
+
+  @NonNull
+  public final TextView textView38;
+
+  @NonNull
+  public final TextView textView39;
+
+  @NonNull
+  public final TextView textView40;
+
+  private ActivityModifyStuInfoBinding(@NonNull ConstraintLayout rootView,
+      @NonNull EditText address3, @NonNull EditText gender4, @NonNull ImageView imageView4,
+      @NonNull EditText inputStuID, @NonNull Button searchButton, @NonNull EditText stuAge4,
+      @NonNull EditText stuName4, @NonNull EditText studentId4, @NonNull Button submitButton3,
+      @NonNull EditText tel4, @NonNull TextView textView33, @NonNull TextView textView34,
+      @NonNull TextView textView35, @NonNull TextView textView36, @NonNull TextView textView37,
+      @NonNull TextView textView38, @NonNull TextView textView39, @NonNull TextView textView40) {
     this.rootView = rootView;
+    this.address3 = address3;
+    this.gender4 = gender4;
+    this.imageView4 = imageView4;
+    this.inputStuID = inputStuID;
+    this.searchButton = searchButton;
+    this.stuAge4 = stuAge4;
+    this.stuName4 = stuName4;
+    this.studentId4 = studentId4;
+    this.submitButton3 = submitButton3;
+    this.tel4 = tel4;
+    this.textView33 = textView33;
+    this.textView34 = textView34;
+    this.textView35 = textView35;
+    this.textView36 = textView36;
+    this.textView37 = textView37;
+    this.textView38 = textView38;
+    this.textView39 = textView39;
+    this.textView40 = textView40;
   }
 
   @Override
@@ -43,10 +126,124 @@ public final class ActivityModifyStuInfoBinding implements ViewBinding {
 
   @NonNull
   public static ActivityModifyStuInfoBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.address3;
+      EditText address3 = rootView.findViewById(id);
+      if (address3 == null) {
+        break missingId;
+      }
 
-    return new ActivityModifyStuInfoBinding((ConstraintLayout) rootView);
+      id = R.id.gender4;
+      EditText gender4 = rootView.findViewById(id);
+      if (gender4 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView4;
+      ImageView imageView4 = rootView.findViewById(id);
+      if (imageView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.inputStuID;
+      EditText inputStuID = rootView.findViewById(id);
+      if (inputStuID == null) {
+        break missingId;
+      }
+
+      id = R.id.searchButton;
+      Button searchButton = rootView.findViewById(id);
+      if (searchButton == null) {
+        break missingId;
+      }
+
+      id = R.id.stuAge4;
+      EditText stuAge4 = rootView.findViewById(id);
+      if (stuAge4 == null) {
+        break missingId;
+      }
+
+      id = R.id.stuName4;
+      EditText stuName4 = rootView.findViewById(id);
+      if (stuName4 == null) {
+        break missingId;
+      }
+
+      id = R.id.student_id4;
+      EditText studentId4 = rootView.findViewById(id);
+      if (studentId4 == null) {
+        break missingId;
+      }
+
+      id = R.id.submit_button3;
+      Button submitButton3 = rootView.findViewById(id);
+      if (submitButton3 == null) {
+        break missingId;
+      }
+
+      id = R.id.tel4;
+      EditText tel4 = rootView.findViewById(id);
+      if (tel4 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView33;
+      TextView textView33 = rootView.findViewById(id);
+      if (textView33 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView34;
+      TextView textView34 = rootView.findViewById(id);
+      if (textView34 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView35;
+      TextView textView35 = rootView.findViewById(id);
+      if (textView35 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView36;
+      TextView textView36 = rootView.findViewById(id);
+      if (textView36 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView37;
+      TextView textView37 = rootView.findViewById(id);
+      if (textView37 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView38;
+      TextView textView38 = rootView.findViewById(id);
+      if (textView38 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView39;
+      TextView textView39 = rootView.findViewById(id);
+      if (textView39 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView40;
+      TextView textView40 = rootView.findViewById(id);
+      if (textView40 == null) {
+        break missingId;
+      }
+
+      return new ActivityModifyStuInfoBinding((ConstraintLayout) rootView, address3, gender4,
+          imageView4, inputStuID, searchButton, stuAge4, stuName4, studentId4, submitButton3, tel4,
+          textView33, textView34, textView35, textView36, textView37, textView38, textView39,
+          textView40);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
