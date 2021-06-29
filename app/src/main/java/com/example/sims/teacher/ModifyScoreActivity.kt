@@ -62,7 +62,7 @@ class ModifyScoreActivity : AppCompatActivity() , View.OnClickListener {
             Toast.makeText(this@ModifyScoreActivity, fail, Toast.LENGTH_SHORT).show()
         }else{
             scoreDao = scoreDatabase?.getScoreDao()
-            var student = Score(stuID.toString().toInt(),courseName.toString(), score.toString().toInt())
+            var student = Score(stuID.toString().toInt(),courseName.toString().toInt(), score.toString().toInt())
             scoreDao?.insert(student)
             val fail = "成绩添加成功"
             Toast.makeText(this@ModifyScoreActivity, fail, Toast.LENGTH_SHORT).show()

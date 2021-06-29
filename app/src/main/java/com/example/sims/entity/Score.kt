@@ -9,7 +9,7 @@ data class Score(
         @NonNull()
         var student_id:Int,
         @NonNull
-        var course:String,
+        var course:Int,
         @ColumnInfo(name = "score")
         var score:Int?
 ) {

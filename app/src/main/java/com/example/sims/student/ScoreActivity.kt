@@ -57,19 +57,34 @@ class ScoreActivity : AppCompatActivity() {
                 .allowMainThreadQueries()
                 .build()
         var scoreDao = scoreDatabase.getScoreDao()
-        var score1 = scoreDao.select(VerifyLogin.username!!.toInt(),"语文")
-        var score2 = scoreDao.select(VerifyLogin.username!!.toInt(),"数学")
-        var score3 = scoreDao.select(VerifyLogin.username!!.toInt(),"英语")
+        var score1 = scoreDao.select(VerifyLogin.username!!.toInt(),"1")
+        var score2 = scoreDao.select(VerifyLogin.username!!.toInt(),"2")
+        var score3 = scoreDao.select(VerifyLogin.username!!.toInt(),"3")
 
         binding.score1.text = "1";
         binding.score2.text = "语文";
-        binding.score3.text = score1.toString();
+        binding.score3.text = "无";
+        if(score1 == -1){
+            binding.score3.text = "成绩未录入";
+        }else {
+            binding.score3.text = score1.toString();
+        }
         binding.score4.text = "2";
         binding.score5.text = "数学";
-        binding.score6.text = score2.toString();
+        binding.score6.text = "无";
+        if(score2 == -1){
+            binding.score6.text = "成绩未录入";
+        }else {
+            binding.score6.text = score2.toString();
+        }
         binding.score7.text = "3";
         binding.score8.text = "英语";
-        binding.score9.text = score3.toString();
+        binding.score9.text = "无";
+        if(score3 == -1){
+            binding.score9.text = "成绩未录入";
+        }else {
+            binding.score9.text = score3.toString();
+        }
 
 
 

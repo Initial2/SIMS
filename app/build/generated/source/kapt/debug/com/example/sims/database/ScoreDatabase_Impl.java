@@ -35,9 +35,9 @@ public final class ScoreDatabase_Impl extends ScoreDatabase {
     final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(1) {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `score` (`student_id` INTEGER NOT NULL, `course` TEXT NOT NULL, `score` INTEGER, PRIMARY KEY(`student_id`, `course`))");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `score` (`student_id` INTEGER NOT NULL, `course` INTEGER NOT NULL, `score` INTEGER, PRIMARY KEY(`student_id`, `course`))");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '4cdb4a247e73702d11b7b55f1a79a34b')");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '61313405bdf6f56dbc472afb84bde958')");
       }
 
       @Override
@@ -83,7 +83,7 @@ public final class ScoreDatabase_Impl extends ScoreDatabase {
       protected RoomOpenHelper.ValidationResult onValidateSchema(SupportSQLiteDatabase _db) {
         final HashMap<String, TableInfo.Column> _columnsScore = new HashMap<String, TableInfo.Column>(3);
         _columnsScore.put("student_id", new TableInfo.Column("student_id", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
-        _columnsScore.put("course", new TableInfo.Column("course", "TEXT", true, 2, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsScore.put("course", new TableInfo.Column("course", "INTEGER", true, 2, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsScore.put("score", new TableInfo.Column("score", "INTEGER", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         final HashSet<TableInfo.ForeignKey> _foreignKeysScore = new HashSet<TableInfo.ForeignKey>(0);
         final HashSet<TableInfo.Index> _indicesScore = new HashSet<TableInfo.Index>(0);
@@ -96,7 +96,7 @@ public final class ScoreDatabase_Impl extends ScoreDatabase {
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "4cdb4a247e73702d11b7b55f1a79a34b", "d1c97fce08658815b670446d5b59ad0c");
+    }, "61313405bdf6f56dbc472afb84bde958", "7c70dd5a3a356898e476482819610400");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)
