@@ -76,8 +76,8 @@ class StudentActivity : AppCompatActivity(), View.OnClickListener {
             }
 
             R.id.classmates_button -> {
-              /*  val intent = Intent(this@StudentActivity, ClassMatesActivity::class.java)
-                startActivity(intent)*/
+               val intent = Intent(this@StudentActivity, ClassMatesActivity::class.java)
+                startActivity(intent)
             }
 
             R.id.exit_button -> {

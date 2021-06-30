@@ -1784,6 +1784,7 @@ id button
 id button2
 id button3
 id button4
+id button6
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1903,6 +1904,7 @@ id info
 id inputStuID
 id input_course
 id input_name
+id input_stuID
 id input_stuInfo
 id input_stuid
 id invisible
@@ -1922,6 +1924,7 @@ id line3
 id linear
 id listMode
 id list_item
+id listview
 id login
 id masked
 id material_clock_display
@@ -2010,6 +2013,7 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
+id query
 id radio
 id ratio
 id rectangles
@@ -2192,7 +2196,9 @@ id textView43
 id textView44
 id textView45
 id textView46
+id textView47
 id textView5
+id textView52
 id textView6
 id textView7
 id textView8
@@ -2301,6 +2307,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_stu
 layout activity_admin
+layout activity_class_mates
 layout activity_distribute_course
 layout activity_login
 layout activity_modify

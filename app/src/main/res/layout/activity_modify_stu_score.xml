@@ -6,4 +6,258 @@
     android:layout_height="match_parent"
     tools:context=".admin.ModifyStuScoreActivity">
 
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="397dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="#00BCD4">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="137dp"
+                android:layout_height="match_parent"
+                android:text="课程号"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:text="课程名"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:text="成绩"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="#00BCD4">
+
+            <TextView
+                android:id="@+id/score1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/score2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/score3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="#00BCD4">
+
+            <TextView
+                android:id="@+id/score4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/score5"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/score6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="#00BCD4">
+
+            <TextView
+                android:id="@+id/score7"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/score8"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/score9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="#00BCD4">
+
+            <TextView
+                android:id="@+id/score10"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/score11"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/score12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="#00BCD4">
+
+            <TextView
+                android:id="@+id/score13"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/score14"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/score15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="#00BCD4">
+
+            <TextView
+                android:id="@+id/score16"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/score17"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/score18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="72dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="320dp"
+        android:layout_marginRight="320dp"
+        android:text="学号:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_stuID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginRight="165dp"
+        android:text="查询"
+        android:onClick="queryScore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="648dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginRight="163dp"
+        android:text="提交修改"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
