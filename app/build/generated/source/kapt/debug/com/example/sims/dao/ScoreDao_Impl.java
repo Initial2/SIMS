@@ -31,11 +31,7 @@ public final class ScoreDao_Impl implements ScoreDao {
       @Override
       public void bind(SupportSQLiteStatement stmt, Score value) {
         stmt.bindLong(1, value.getStudent_id());
-        if (value.getCourse() == null) {
-          stmt.bindNull(2);
-        } else {
-          stmt.bindString(2, value.getCourse());
-        }
+        stmt.bindLong(2, value.getCourse());
         if (value.getScore() == null) {
           stmt.bindNull(3);
         } else {

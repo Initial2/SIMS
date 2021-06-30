@@ -4,8 +4,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.room.Room
 import com.example.sims.R
+import com.example.sims.database.ScoreDatabase
 import com.example.sims.databinding.ActivityDistributeCourseBinding
+import com.example.sims.entity.Score
 
 
 class DistributeCourseActivity : AppCompatActivity() ,View.OnClickListener{
@@ -30,9 +33,13 @@ class DistributeCourseActivity : AppCompatActivity() ,View.OnClickListener{
 
 
         //插入数据库即可。 某个学生选修了某门课
+        var scoreDatabase = Room.databaseBuilder(this, ScoreDatabase::class.java,"Score.db")
+                .allowMainThreadQueries()
+                .build()
+        var scoreDao = scoreDatabase.getScoreDao()
 
-
-
+        var score = Score(stuID.toString().toInt(),courseID.toString().toInt(),-1)
+        scoreDao.insert(score)
 
         //最后提示消息
         val success = "提交成功"
