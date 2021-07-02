@@ -12,12 +12,12 @@
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -80,6 +80,10 @@
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_score_adapter.xml.flat",
+        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_score_adapter.xml"
+    },
+    {
         "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
@@ -100,12 +104,16 @@
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_modify_stu_score.xml"
     },
     {
-        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribute_course.xml.flat",
-        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_distribute_course.xml"
+        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_classmates_adapter.xml.flat",
+        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_classmates_adapter.xml"
     },
     {
-        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_class_mates.xml.flat",
-        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_class_mates.xml"
+        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_classmates.xml.flat",
+        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_classmates.xml"
+    },
+    {
+        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribute_course.xml.flat",
+        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_distribute_course.xml"
     },
     {
         "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",

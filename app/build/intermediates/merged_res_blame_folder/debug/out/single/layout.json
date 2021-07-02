@@ -8,6 +8,10 @@
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_personal_file.xml"
     },
     {
+        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_classmates.xml",
+        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_classmates.xml"
+    },
+    {
         "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_distribute_course.xml",
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_distribute_course.xml"
     },
@@ -28,6 +32,10 @@
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_teacher.xml"
     },
     {
+        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_classmates_adapter.xml",
+        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_classmates_adapter.xml"
+    },
+    {
         "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin.xml",
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_admin.xml"
     },
@@ -38,6 +46,10 @@
     {
         "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_modify.xml",
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_modify.xml"
+    },
+    {
+        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_listview_demo.xml",
+        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_listview_demo.xml"
     },
     {
         "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_modify_stu_info.xml",
@@ -56,7 +68,15 @@
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_modify_stu_score.xml"
     },
     {
+        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_list_view_demo_adapter.xml",
+        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_list_view_demo_adapter.xml"
+    },
+    {
         "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_teach_task.xml",
         "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_teach_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_score_adapter.xml",
+        "source": "C:\\Users\\initial\\AndroidStudioProjects\\SIMS\\app\\src\\main\\res\\layout\\activity_score_adapter.xml"
     }
 ]

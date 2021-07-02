@@ -18,6 +18,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SIMS" >
+        <activity android:name="com.example.sims.student.ScoreAdapter" />
+        <activity android:name="com.example.sims.student.ClassmatesAdapterActivity" />
+        <activity android:name="com.example.sims.student.ClassmatesActivity" />
+        <activity android:name="com.example.sims.student.ListViewDemoAdapter" />
+        <activity android:name="com.example.sims.student.ListViewDemoActivity" />
         <activity android:name="com.example.sims.student.ClassMatesActivity" />
         <activity android:name="com.example.sims.admin.TeachTaskActivity" />
         <activity android:name="com.example.sims.admin.AddStuActivity" />

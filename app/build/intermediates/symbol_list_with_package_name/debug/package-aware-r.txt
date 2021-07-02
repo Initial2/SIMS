@@ -1812,6 +1812,7 @@ id confirm_button
 id container
 id content
 id contentPanel
+id content_tv
 id contiguous
 id coordinator
 id cos
@@ -2007,6 +2008,7 @@ id pathRelative
 id peekHeight
 id percent
 id personal_file_button
+id picture_img
 id pin
 id position
 id postLayout
@@ -2037,13 +2039,7 @@ id score15
 id score16
 id score17
 id score18
-id score19
 id score2
-id score20
-id score21
-id score22
-id score23
-id score24
 id score3
 id score4
 id score5
@@ -2145,6 +2141,7 @@ id tel3
 id tel4
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
+id test_lv
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
@@ -2195,7 +2192,6 @@ id textView43
 id textView44
 id textView45
 id textView46
-id textView47
 id textView5
 id textView52
 id textView6
@@ -2306,7 +2302,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_stu
 layout activity_admin
-layout activity_class_mates
+layout activity_classmates
+layout activity_classmates_adapter
 layout activity_distribute_course
 layout activity_login
 layout activity_modify
@@ -2315,6 +2312,7 @@ layout activity_modify_stu_info
 layout activity_modify_stu_score
 layout activity_personal_file
 layout activity_score
+layout activity_score_adapter
 layout activity_search_stu_info
 layout activity_student
 layout activity_teach_task

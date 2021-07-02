@@ -53,13 +53,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         passwordEditText = biding.password
 
 
-
-        //设置按钮监听事件 使用ViewBiding 替换
-       // button = findViewById<View>(R.id.login) as Button
-        //usernameEditText = findViewById<View>(R.id.username) as EditText
-        //passwordEditText = findViewById<View>(R.id.password) as EditText
-       // button!!.setOnClickListener(this)
-
     }
 
     //按钮监听事件

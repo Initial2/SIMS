@@ -76,7 +76,7 @@ class StudentActivity : AppCompatActivity(), View.OnClickListener {
             }
 
             R.id.classmates_button -> {
-               val intent = Intent(this@StudentActivity, ClassMatesActivity::class.java)
+               val intent = Intent(this@StudentActivity, ClassmatesActivity::class.java)
                 startActivity(intent)
             }
 

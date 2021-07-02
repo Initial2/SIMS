@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SIMS">
-        <activity android:name=".student.ClassMatesActivity"></activity>
+        <activity android:name=".student.ScoreAdapter"></activity>
+        <activity android:name=".student.ClassmatesAdapterActivity" />
+        <activity android:name=".student.ClassmatesActivity" />
+        <activity android:name=".student.ListViewDemoAdapter" />
+        <activity android:name=".student.ListViewDemoActivity" />
+        <activity android:name=".student.ClassMatesActivity" />
         <activity android:name=".admin.TeachTaskActivity" />
         <activity android:name=".admin.AddStuActivity" />
         <activity android:name=".admin.ModifyStuInfoActivity" />
