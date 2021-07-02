@@ -1924,7 +1924,6 @@ id line3
 id linear
 id listMode
 id list_item
-id listview
 id login
 id masked
 id material_clock_display

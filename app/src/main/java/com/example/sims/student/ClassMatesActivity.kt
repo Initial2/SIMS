@@ -11,17 +11,21 @@ class ClassMatesActivity : AppCompatActivity() {
 
     var inflate : ActivityClassMatesBinding? = null
 
-    private val data= listOf("数据1","数据2","数据1","数据1","数据1","数据1","数据1","数据1","数据1","数据1")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_class_mates)
 //        supportActionBar?.hide()
-        val adapter = ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,data)
 
         inflate = ActivityClassMatesBinding.inflate(layoutInflater)
 
-        inflate!!.listview.adapter = adapter
-
+        show()
 
     }
+
+
+    fun show(){
+        //根据该学生的登录账号，也就是学号，去查询他的同班同学信息。 然后显示
+    }
+
 }
